@@ -118,19 +118,19 @@ Overall, the project provided valuable practical experience in embedded systems 
 
 ### Figure 1. Architecture A Schematics
 
-> *(Insert image here)*
+![Architecture A schematics](images/Architecture_A_output.png)
 
 ### Figure 2. Architecture A Simulation on Wokwi
 
-> *(Insert image here)*
+![Architecture A simulation on Wokwi](images/Architecture_A_simulation_on_Wokwi.png)
 
 ### Figure 3. Architecture A Physical Connection
 
-> *(Insert image here)*
+![Architecture A Physical Connection](images/Architecture_A_physical_connection.png)
 
 ### Figure 4. Architecture A Output
 
-> *(Insert image here)*
+![Architecture A Output](images/Architecture_A_output.png)
 
 ---
 
@@ -138,19 +138,19 @@ Overall, the project provided valuable practical experience in embedded systems 
 
 ### Figure 5. Architecture B DHT22 Physical Input Connection
 
-> *(Insert image here)*
+![Architecture B DHT22 Physical Input Connection](images/Architecture_B_DHT22_physical_Input_connection.png)
 
 ### Figure 6. Architecture B MQ-5 Physical Input Connection
 
-> *(Insert image here)*
+![Architecture B MQ-5 Physical Input Connection](images/Architecture_B_MQ5_Physical_Input_connection.png)
 
 ### Figure 7. Architecture B DHT22 Output
 
-> *(Insert image here)*
+![Architecture B DHT22 Output](images/Architecture_B_DHT22_Output.png)
 
 ### Figure 8. Architecture B MQ-5 Sensor Output
 
-> *(Insert image here)*
+![Architecture B MQ-5 Sensor Output](images/Architecture_B_MQ5_sensor_output.png)
 
 ---
 
@@ -158,11 +158,11 @@ Overall, the project provided valuable practical experience in embedded systems 
 
 ### Figure 9. Architecture C ESP32 Node 1
 
-> *(Insert image here)*
+![Architecture C ESP32 Node 1](images/Architecture_C_ESP32_Node_1.png)
 
 ### Figure 10. Architecture C ESP32 Node 2
 
-> *(Insert image here)*
+![Architecture C ESP32 Node 2](images/Architecture_C_ESP32_Node_2.png)
 
 ---
 
@@ -170,20 +170,28 @@ Overall, the project provided valuable practical experience in embedded systems 
 
 ### Figure 11. Architecture A
 
-> *(Insert image here)*
+![Architecture A](images/Architecture_A.png)
 
 ### Figure 12. Architecture B Schematics
 
-> *(Insert image here)*
+![Architecture B Schematics](images/Architecture_B_Schematics.png)
 
 ### Figure 13. Architecture B Initial Connection (Failed Due to TX/RX Connection)
 
-> *(Insert image here)*
+![Architecture B Initial Connection (Failed Due to TX/RX Connection)](images/Architecture_B_initial_connection._Failed_due_to_TX,_RX_connection.png)
 
 ### Figure 14. Architecture B Error: The Two ESP32s Failed to Establish a Connection
 
-> *(Insert image here)*
+![Architecture B Error: The Two ESP32s Failed to Establish a Connection](images/Architecture_B_error_The_two_ESP32s_failed_to_establish_a_connection.png)
 
 ### Figure 15. Architecture B DHT22 Newer Connection with Connected Resistor
 
-> *(Insert image here)*
+![Architecture B DHT22 Newer Connection with Connected Resistor](Architecture B DHT22 Newer Connection with Connected Resistor)
+
+---
+
+## Appendix E – Group Photo
+
+### Figure 16. Group Photo
+
+![Group Photo](images/Group_photo.png)
