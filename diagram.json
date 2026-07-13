@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "author": "Billiart Muthoni",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-s3-devkitc-1", "id": "esp", "top": -0.18, "left": 23.77, "attrs": {} },
+    { "type": "wokwi-gas-sensor", "id": "gas1", "top": 89.1, "left": -185, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht1", "top": -95.7, "left": -312.6, "attrs": {} },
+    {
+      "type": "wokwi-lcd1602",
+      "id": "lcd1",
+      "top": 92.8,
+      "left": 236,
+      "attrs": { "pins": "i2c" }
+    }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "gas1:GND", "esp:GND.2", "black", [ "h57.6", "v-154.4", "h124.8", "v57.6" ] ],
+    [ "gas1:VCC", "esp:3V3.1", "red", [ "h38.4", "v-106.5" ] ],
+    [ "gas1:AOUT", "esp:1", "green", [ "h48", "v-144", "h144", "v96" ] ],
+    [ "dht1:GND", "esp:GND.1", "black", [ "v0" ] ],
+    [ "dht1:VCC", "esp:3V3.2", "red", [ "v0" ] ],
+    [ "dht1:SDA", "esp:11", "green", [ "v0" ] ],
+    [ "lcd1:SDA", "esp:8", "green", [ "h-105.6", "v125", "h-124.8", "v-134.4" ] ],
+    [ "lcd1:SCL", "esp:9", "green", [ "h-96", "v125.1", "h-153.6", "v-115.2" ] ],
+    [ "lcd1:GND", "esp:GND.3", "black", [ "h-115.2", "v96" ] ],
+    [ "lcd1:VCC", "esp:3V3.2", "red", [ "h-76.8", "v-153.5", "h-201.6", "v67.2" ] ]
+  ],
+  "dependencies": {}
+}
